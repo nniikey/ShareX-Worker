@@ -64,17 +64,17 @@ apiStore.isPageLoaded = true;
 			<form @submit.prevent="onSubmit">
 				<Card class="w-full max-w-sm">
 					<CardHeader class="text-center">
-						<CardTitle class="text-2xl">Authentication Required</CardTitle>
-						<CardDescription>Enter your API key below to login.</CardDescription>
+						<CardTitle class="text-2xl">SOON</CardTitle>
+						<CardDescription></CardDescription>
 					</CardHeader>
 					<CardContent class="grid gap-4">
 						<div class="grid gap-2">
-							<Label for="password">API Key</Label>
+							<Label for="password">PASSWORD</Label>
 							<Input v-model="password" id="password" type="password" required />
 						</div>
 					</CardContent>
 					<CardFooter>
-						<Button type="submit" class="w-full">Login</Button>
+						<Button type="submit" class="w-full">SUBMIT</Button>
 					</CardFooter>
 				</Card>
 			</form>
